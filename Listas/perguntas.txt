@@ -1,0 +1,54 @@
+PERGUNTAS
+
+• TIRAR O SYSTEM CLEAR DOS CÓDIGOS E OS COMENTÁRIOS (OK)
+• Conferir impressões tipo número da questão (OK)
+• Ver questão do pause -> opção inválida (OK)
+• Inserir vários nós pela posição (OK)
+• Reorganizar funções da questão 7 (OK)
+• Recompilar os códigos (OK)
+• (Otimizar listas circulares)
+
+1. Faça um programa que crie uma lista estática encadeada utilizando uma matriz de no
+máximo 10 posições, o programa deverá permitir as seguintes operações:
+	• Inicializar (limpar) a lista;
+	• Incluir elementos na lista;
+	• Remover elementos da lista;
+	• Exibir todos os elementos da lista.
+A matriz deverá possuir 10 linhas e 2 colunas. A primeira coluna armazenará o valor
+informado pelo usuário e a segunda coluna a posição do próximo elemento.
+O usuário deverá informar a posição que deseja (incluir/remover) cada elemento.
+Todos os testes de existência ou não do elemento deverão ser efetuados, seja na
+operação de inserção quanto na remoção.
+("OK!")
+
+2. Faça um programa que crie uma lista dinâmica encadeada. O usuário deverá informar
+quantos termos deseja inserir.
+(OK!)
+
+3. Faça um programa em que o usuário informe o valor que deseja remover de uma lista
+dinâmica encadeada.
+(OK!)
+
+4. Faça um programa em que o usuário informe a posição que deseja remover de uma
+lista dinâmica encadeada.
+(OK!)
+
+5. Faça um programa para gerenciar uma lista dinâmica encadeada ordenada. O usuário
+terá a opção de inserir quantos nós(elementos) desejar sequencialmente, também
+deverá permitir ao usuário inserir ou eliminar nós tanto pelo valor digitado quanto pela
+posição do nó.
+(OK!)
+
+6. Faça um programa para gerenciar uma lista dinâmica encadeada circular. O usuário
+terá a opção de inserir quantos nós(elementos) desejar sequencialmente, também
+deverá permitir eliminar nós tanto pelo valor digitado quanto pela posição do nó e
+inserir nós na posição que o usuário desejar.
+(OK!)
+
+7. Faça um programa para gerenciar uma lista dinâmica duplamente encadeada circular.
+O usuário terá a opção de inserir quantos nós(elementos) desejar sequencialmente.
+O programa também deverá permitir ao usuário eliminar nós tanto pelo valor digitado
+quanto pela posição do nó. O programa também deverá inserir nós na posição que o
+usuário desejar.
+(OK!)
+Imprimir lista ao contrário OK!

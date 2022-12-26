@@ -1,0 +1,25 @@
+1. Compare os algoritmos Busca linear e de Busca binária para o seguinte vetor com os
+elementos: (2, 7, 11, 33, 54, 85, 90, 115).
+
+a) Quantas comparações são necessárias para buscar o elemento 54 com busca
+linear e busca binária? (Feito) *
+
+b) E se buscarmos um elemento que não existe no vetor? Use como exemplo o
+elemento igual ao valor 45. (Feito) *
+
+c) Dado o algoritmo clássico da busca linear e binária, o que acontece se a chave
+procurada no vetor possuir valores repetidos? (Feito)
+
+
+2. Escreva funções de pesquisa sequencial e binária em C para encontrar a posição de
+um valor em um vetor ordenado e imprima a quantidade de comparações feitas para
+cada método. (Feito) *
+
+
+3. Refaça as funções de busca sequencial e busca binária assumindo que o vetor possui
+chaves que podem aparecer repetidas. Neste caso, você deve retornar em um outro
+vetor todas as posições onde a chave foi encontrada. (Feito)
+
+
+4. Dado a estrutura de lista sequencial. Escreva um programa que realiza busca em uma
+estrutura de Lista ligada. (Feito)

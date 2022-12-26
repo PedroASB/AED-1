@@ -1,0 +1,9 @@
+LISTA DE ORDENAÇÃO - QUICK E HEAP SORT
+Nome: Pedro Augusto Serafim Belo
+RA: 202003610
+QUESTÃO 05
+
+Resposta: 
+	A altura de um heap pode ser obtida pelo número de arestas no caminho 
+descendente mais simples da raiz até a folha mais distante. Em um heap de 
+altura h, o número mínimo de elementos é 2^h, e o número máximo é 2^(h+1) - 1

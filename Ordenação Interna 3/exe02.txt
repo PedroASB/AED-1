@@ -1,0 +1,11 @@
+LISTA DE ORDENAÇÃO - QUICK E HEAP SORT
+Nome: Pedro Augusto Serafim Belo
+RA: 202003610
+QUESTÃO 02
+
+Resposta:
+	Uma entrada de dados que faria um algoritmo Quicksort realizar n² 
+comparações seria um vetor ordenado ou inversamente ordenado, cujo pivô 
+escolhido é um dos extremos (maior ou menor elemento). Um exemplo desse 
+caso seria o vetor V = {7, 6, 5, 4, 3, 2, 1, 0}, onde o tamanho é n = 8 
+e seriam realizadas n² = 64 comparações.

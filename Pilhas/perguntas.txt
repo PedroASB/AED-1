@@ -1,0 +1,31 @@
+ENUNCIADOS
+
+• Tirar o SYSTEM CLEAR dos códigos
+• Limpar comentários temporários
+
+1. Faça um programa para “empilhar” e “desempilhar” uma palavra acessada pelo
+teclado. O resultado de “desempilhar” deve ser exibido em tela. Utilize um vetor para
+realizar esta operação.
+(OK!)
+
+2. Faça um programa para “empilhar” e “desempilhar” uma palavra acessada pelo
+teclado. O resultado de “desempilhar” deve ser exibido em tela. Utilize alocação
+dinâmica em memória para realizar esta operação.
+(OK!)
+
+3. Faça um programa para armazenar em uma pilha os números do “tombo” dos livros
+de uma biblioteca. Ao ser digitado número de tombo -1, encerrar o armazenamento
+das informações na pilha. Após empilhar os dados, acessar o número de um tombo
+para eliminar da pilha. Apresente os dados contidos na pilha após a eliminação.
+(OK!) - verificar
+
+4. Faça um programa, utilizando alocação dinâmica, para utilizar uma pilha como uma
+calculadora que utilize notação pós-fixada. No final da execução, o programa deverá
+apresentar o resultado do cálculo da expressão informada.
+(OK!)
+
+
+gcc exe01.c -o exe01 && ./exe01
+gcc exe02.c -o exe02 && ./exe02
+gcc exe03.c -o exe03 && ./exe03
+gcc exe04.c -o exe04 && ./exe04

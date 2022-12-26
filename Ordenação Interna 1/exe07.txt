@@ -1,0 +1,11 @@
+LISTA DE ORDENAÇÃO - SELECTION E INSERTION SORT
+Nome: Pedro Augusto Serafim Belo
+RA: 202003610
+QUESTÃO 07
+
+Resposta:
+	O insertion sort é mais eficiente que o selection sort quando o conjunto 
+está quase ou totalmente ordenado, porque irá realizar pouco ou nenhum
+movimento substancial, enquanto que o selection iria percorrer todo o 
+laço interno e externo. Um exemplo em que o insertion é mais eficiente 
+seria a necessidade de inserir um novo item em um arquivo já ordenado.

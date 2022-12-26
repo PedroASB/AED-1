@@ -1,0 +1,46 @@
+Perguntas - Ordenação Externa
+
+1. Responda às seguintes perguntas para cada um desses cenários, assumindo que o
+algoritmo de classificação externo mais geral é usado:
+- Um arquivo com 10.000 páginas e três páginas/fontes(m) de buffer disponíveis.
+- Um arquivo com 20.000 páginas e cinco páginas de buffer disponíveis.
+- Um arquivo com 2.000.000 de páginas e 17 páginas de buffer disponíveis.
+
+a) Quantas corridas você produzirá na primeira passagem?
+
+b) Quantas passagens serão necessárias para classificar o arquivo completamente?
+
+c) Qual é o custo total de E / S para classificar o arquivo?
+
+d) Quantas páginas de buffer você precisa para classificar o arquivo completamente em
+apenas duas passagens? (retirada)
+
+m = número de registros
+páginas de buffer: arquivos temporários (base do log)
+
+Obs.: Ver o material bibliográfico
+
+
+// Atualização
+
+1.	Responda às seguintes perguntas para cada um desses cenários, assumindo que o algoritmo de classificação externo mais geral é usado:
+-	Um arquivo com 10.000 registros e três fontes disponíveis.
+-	Um arquivo com 20.000 registros e cinco fontes disponíveis.
+-	Um arquivo com 2.000.000 registros e 17 fontes disponíveis.
+
+a)	Quantos blocos você produzirá na primeira “passagem”?
+
+b)	Conhecendo a quantidade de blocos (questão anterior), quantas “passagens” serão necessárias para classificar o arquivo?
+
+c)	Na operação de classificação, cada vez que um registro é acessado para realizar a classificação, ele vai ser lido e depois gravado. Considerando as quantidades de registros, fontes e blocos calculados nas questões anteriores. Quantas operações de leitura e gravação serão realizadas para classificar cada uma das 3 configurações apresentadas?
+
+c) Analisar: 2 (L/E) * qnt de registros * qnt de passadas
+
+
+
+
+log 3 (10000/b) = passadas
+analisar: 3334
+
+Resposta do yuri : Letra B: o tamanho dos blocos seria a quantidade de páginas de buffer disponíveis.
+O cálculo seria:  (log da quantidade de execuções (gerada no item A) na base B (quantidade de página de buffer menos 1)) e no final soma-se 1

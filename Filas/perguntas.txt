@@ -1,0 +1,30 @@
+ENUNCIADOS
+
+• Tirar o SYSTEM CLEAR dos códigos
+• Limpar comentários temporários
+
+1. Faça um programa para gerenciar o spool de uma impressora. Você deverá informar
+o nome dos documentos que serão impressos e o tempo necessário para impressão
+de cada um destes. Todos estes nomes de documentos e tempos deverão ser
+armazenados em memória. Utilize para isto uma estrutura baseada em filas.
+(OK!)
+
+2. Faça um programa que leia o spool de impressão criado no exercício anterior e
+“desenfilere” todos os documentos. Criar uma rotina que realize uma contagem
+regressiva do tempo informado, simulando assim a operação de impressão dos
+documentos.
+(OK!)
+
+3. Faça um programa que armazene em uma fila o RA de todos os alunos que
+protocolaram requerimentos no departamento acadêmico.
+(OK)
+
+4. Faça um programa que “desenfilere” os RA's simulando assim o atendimento de cada
+um.
+(OK)
+
+5. Faça um programa que armazene em uma fila o RA de todos os alunos que
+protocolaram requerimentos no departamento acadêmico. Utilize apenas um descritor
+para esta fila, que armazenará a posição do início da fila. O descritor que armazena a
+posição do final da lista deverá ser armazenado na primeira posição da própria lista.
+(OK!)

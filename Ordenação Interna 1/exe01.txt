@@ -1,0 +1,12 @@
+LISTA DE ORDENAÇÃO - SELECTION E INSERTION SORT
+Nome: Pedro Augusto Serafim Belo
+RA: 202003610
+QUESTÃO 01
+
+Resposta:
+	Um algoritmo de selection sort possui sempre a mesma eficiência independente da 
+ordem porque ele visa encontrar o menor (ou o maior) elemento de um vetor, 
+percorrendo então dois laços de repetição, já que compara um valor com todos os 
+outros a cada iteração. Dessa forma, independente de o vetor estar na ordem 
+inversa ou já ordenado, os dois laços serão executados, o que faz o algoritmo ter 
+sempre complexidade O(n^2).

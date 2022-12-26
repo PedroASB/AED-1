@@ -1,0 +1,25 @@
+1. Considere o vetor A contendo a seguinte sequência de números: 
+5, 13, 7, 20, 12, 9, 1, 4, 18, 3. Faça a ordenação em ordem crescente utilizando 
+o Quick Sort, apresentando a sequência dos números a cada passo (teste de mesa).
+(Feito)
+
+2. Algumas implementações do quickSort sempre usam um [i] como pivô. Dê um exemplo
+de um vetor de entrada de comprimento n em que tal implementação realizaria n²
+comparações.
+(Feito)
+
+3. Escreva um algoritmo em linguagem C que faça a ordenação de uma lista de nomes
+utilizando o Quick Sort.
+(Feito)
+
+4. Ilustre a operação de Heapsort sobre o arranjo 
+A = {5, 13, 2, 25, 7, 17, 20, 8, 4}
+(Feito)
+
+5. Quais são os números mínimo e máximo de elementos em um heap de altura h?
+(Feito)
+
+6. Escreva um algoritmo por uso do Heapsort que faça a ordenação decrescente dos
+caracteres da seguinte string “Ordenando com Heap Sort”. Mostre na tela o resultado.
+(ASCII/Alfabética) -> (Feito)
+

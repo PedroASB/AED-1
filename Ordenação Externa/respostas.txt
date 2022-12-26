@@ -1,0 +1,94 @@
+Lista de Ordenação Externa
+Nome: Pedro Augusto Serafim Belo
+RA: 202003610
+
+A análise da complexidade de uma ordenação externa balanceada é realizada mediante a seguinte função:
+
+P = logm (N/b)
+
+P = quantidade de passadas
+N = quantidade total de registros
+b = tamanho do bloco na primeira distribuição
+m = quantidade de fontes (páginas de buffer) utilizadas
+
+Seguem os três casos da questão 1:
+
+Caso 1: Um arquivo com 10.000 registros e três fontes disponíveis
+
+a) Na primeira passada (P = 1) teremos: 
+P = logm (N/b)
+1 = log3 (10000/b)
+3 = 10000/b
+b = 3333,333... ≅ 3334
+Logo, serão produzidos 3334 blocos.
+
+b) Tendo a quantidade de blocos b = 3334, queremos achar o valor de P (quantidade de passagens):
+P = logm (N/b)
+P = log3 (10000/3334)
+P ≅ log3 (3)
+3^P = 3
+P = 1 (+ 1 distribuição) 
+P = 2
+Logo, serão necessárias 2 passagens para ordenar o arquivo.
+
+c) Para classificar o arquivo, serão necessárias:
+(qtd. de passadas) * (qtd. de registros) operações, mas como realiza-se leitura e gravação, multiplica-se por 2, logo:
+O = 2 * (qtd. de passadas) * (qtd. de registros)
+Como são 10000 registros e 2 passadas, temos:
+O = 2 * 2 * 10000
+O = 40000
+Logo, serão realizadas 40000 operações de leitura e gravação.
+
+
+Caso 2: Um arquivo com 20000 registros e cinco fontes disponíveis
+
+a) Na primeira passada (P = 1) teremos: 
+P = logm (N/b)
+1 = log5 (10000/b)
+5 = 20000/b
+b = 4000
+Logo, serão produzidos 4000 blocos .
+
+b) Tendo a quantidade de blocos b = 4000, queremos achar o valor de P (quantidade de passagens):
+P = logm (N/b)
+P = log5 (20000/4000)
+P = log5 (5)
+5^P = 5
+P = 1 (+ 1 distribuição) 
+P = 2
+Logo, serão necessárias 2 passagens para ordenar o arquivo.
+
+c) Para classificar o arquivo, serão necessárias:
+(qtd. de passadas) * (qtd. de registros) operações, mas como realiza-se leitura e gravação, multiplica-se por 2, logo:
+O = 2 * (qtd. de passadas) * (qtd. de registros)
+Como são 20000 registros e 2 passadas, temos:
+O = 2 * 2 * 20000
+O = 80000
+Logo, serão realizadas 80000 operações de leitura e gravação.
+
+
+Caso 3: Um arquivo com 2.000.000 registros e 17 fontes disponíveis
+
+a) Na primeira passada (P = 1) teremos: 
+P = logm (N/b)
+1 = log17 (2000000/b)
+17 = 2000000/b
+b = 117647,058... ≅ 117648
+Logo, serão produzidos 117648 blocos .
+
+b) Tendo a quantidade de blocos b = 117648, queremos achar o valor de P (quantidade de passagens):
+P = logm (N/b)
+P = log17 (2000000/117648)
+P ≅ log17 (17)
+17^P = 17
+P = 1 (+ 1 distribuição) 
+P = 2
+Logo, serão necessárias 2 passagens para ordenar o arquivo.
+
+c) Para classificar o arquivo, serão necessárias:
+(qtd. de passadas) * (qtd. de registros) operações, mas como realiza-se leitura e gravação, multiplica-se por 2, logo:
+O = 2 * (qtd. de passadas) * (qtd. de registros)
+Como são 2000000 registros e 2 passadas, temos:
+O = 2 * 2 * 2000000
+O = 8000000
+Logo, serão realizadas 8000000 operações de leitura e gravação.

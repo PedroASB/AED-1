@@ -1,0 +1,19 @@
+LISTA DE PESQUISA SEQUENCIAL E BINÁRIA
+Nome: Pedro Augusto Serafim Belo
+RA: 202003610
+QUESTÃO 01
+
+Os códigos referentes à cada alternativa estão presentes nos arquivos .c
+
+
+a) São realizadas 5 comparações na busca sequencial e 3 na busca binária para 
+buscar o elemento 54.
+
+b) Ao buscar um elemento que não existe no vetor, são realizadas 8 comparações 
+na busca sequencial e 4 na busca binária.
+
+c) Caso haja repetidas chaves no vetor, a busca sequencial retorna o índice da 
+chave mais próxima do início do vetor, pois ela percorre elemento por elemento. 
+Já a busca binária pode retornar o índice de qualquer aparição da chave, ou seja, 
+dependendo do vetor, pode retornar a primeira, a última ou outra posição, sendo 
+retornada a que foi encontrada primeiramente na busca.
